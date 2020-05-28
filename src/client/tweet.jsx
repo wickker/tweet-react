@@ -5,7 +5,7 @@ import Content from './content';
 export default class Tweet extends React.Component {
   render() {
     return (
-      <div class="row">
+      <div class="row tweet">
         <Dp tweet={this.props.tweet} />
         <Content tweet={this.props.tweet} />
       </div>

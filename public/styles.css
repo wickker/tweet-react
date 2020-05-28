@@ -25,3 +25,8 @@ a.tip:hover div {
   top: -120px;
   text-decoration: none;
 }
+
+.tweet {
+  border: solid 1px lightgray;
+  padding-bottom: 10px;
+}
