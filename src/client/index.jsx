@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import tweets from 'tweets';
+import Content from './content';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        {tweets.tweets[0].text}
+        <Content tweet={tweets.tweets[0]} />
       </div>
     );
   }
