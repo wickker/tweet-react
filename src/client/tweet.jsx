@@ -1,15 +1,13 @@
 import React from "react";
+import Dp from './dp';
+import Content from './content';
 
 export default class Tweet extends React.Component {
   render() {
     return (
       <div class="row">
-        <div class="col-2">
-
-        </div>
-        <div class="col-10">
-
-        </div>
+        <Dp tweet={this.props.tweet} />
+        <Content tweet={this.props.tweet} />
       </div>
     );
   }
