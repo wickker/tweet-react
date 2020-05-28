@@ -1,0 +1,27 @@
+.dp {
+  border-radius: 50%;
+}
+
+a.tip:hover {
+  cursor: help;
+  position: relative;
+}
+a.tip div {
+  display: none;
+  position: absolute;
+}
+
+a.tip:hover div {
+  background-color: lightblue;
+  border-radius: 5px;
+  color: black;
+  padding: 5px 5px 5px 5px;
+  display: block;
+  z-index: 100;
+  left: 0px;
+  margin: 10px;
+  width: 200px;
+  position: absolute;
+  top: -120px;
+  text-decoration: none;
+}
