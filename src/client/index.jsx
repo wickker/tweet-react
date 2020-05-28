@@ -5,9 +5,14 @@ import Tweet from './tweet';
 
 class App extends React.Component {
   render() {
+
+    let tweetsArr = tweets.tweets.map((tweet) => {
+      return <Tweet tweet={tweet} />
+    });
+
     return (
       <div>
-        <Tweet tweet={tweets.tweets[0]} />
+        {tweetsArr}
       </div>
     );
   }
